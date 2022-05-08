@@ -1,15 +1,13 @@
-
-
 import glob
 import cv2 
 import numpy as np
 import imutils 
 
 
-def WM_Detection1():
+def WM_Detection():
     # load template
     template_data = []
-    template_files = glob.glob('template/WM5000.jpg', recursive=True)
+    template_files = glob.glob('Template/WM5000.jpg', recursive=True)
     print("template loaded:", template_files)
     # prepare template
     for template_file in template_files:
@@ -48,7 +46,7 @@ def WM_Detection1():
         template_data.append({"glob":tmp, "nominal":nominal})
      
     # template matching
-    for image_glob in glob.glob('test/5000.jpg'):
+    for image_glob in glob.glob('Test/5000.jpg'):
         for template in template_data:
             image_test = cv2.imread(image_glob)
             (tmp_height, tmp_width) = template['glob'].shape[:2]
@@ -99,5 +97,5 @@ def WM_Detection1():
 
 
 if __name__ == "__main__": 
-    WM_Detection1()
+    WM_Detection()
 
