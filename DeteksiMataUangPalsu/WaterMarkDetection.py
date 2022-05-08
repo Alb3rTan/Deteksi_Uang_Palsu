@@ -6,7 +6,7 @@ import numpy as np
 import imutils 
 
 
-def WM_Detection():
+def WM_Detection1():
     # load template
     template_data = []
     template_files = glob.glob('template/WM5000.jpg', recursive=True)
@@ -99,5 +99,5 @@ def WM_Detection():
 
 
 if __name__ == "__main__": 
-    WM_Detection()
+    WM_Detection1()
 
