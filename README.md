@@ -34,16 +34,23 @@ Terdapat 2 Folder
   uang kertas asli atau tidak.
 * Folder Test => Berisikan file image uang kertas yang akan di uji keaslianya.
 
+Ket:
+FIle pada folder Test terdapat 2 jenis fk (palsu), ori (asli)
+FIle fk adalah file image asli namun sudah di edit pada bagian watermark dan logo
+* Fk-2k1.jpg => watermark dihapus setengah dan logo BI di putar ke kiri 10 drajat dari yang asli.
+* fk-2k2.jpg => watermark sepenuhnya dihapus, atau tanpa watermark dan logo BI tetap.
+Catatan: Edit file uang pecahan 2000 tersebut hanya untuk pengujian sebagai uang palsu.
+
 Setiap pecahan uang Rupiah memiliki watermark dan Latar dari logo Bi yang berbeda,
 jadi dapat digunakan untuk melakukan penyesuaian guna mendeteksi originalitas dari uang pecahan tersebut.
 
-==============================================================================
+=========================================================================
 
 Sukses:
 * Watermark hanya terdeteksi dengan pecahan uang yang sama.
 * Logo hanya terdeteksi dengan pecahan uang yang sama.
 
-==============================================================================
+=========================================================================
 
 Masalah:
 * Watermark, Walaupun watermark dihapus setengah.
@@ -52,7 +59,7 @@ Masalah:
 * Logo, Sama halnya watermark.
   Logo BI di buat lebih miring namun latar tetap, sistem tetap dapat membaca.
   
-==============================================================================
+=========================================================================
 
 Jalankan dari file Main.py
 untuk nilai pecahan bisa di ubah nilainya disini:
