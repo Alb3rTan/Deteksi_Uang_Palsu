@@ -12,13 +12,13 @@ Deteksi Watermark dan Logo BI, sebagai bagian dari Originalitas Mata Uang Rupiah
 Cara kerjanya hanya mencocokan 2 Image yaitu Image Pembanding dengan Image yang di Uji.
 
 Library yang digunakan 
-import glob
-import cv2
-import numpy as np
-import imutils                  #Library yang sudah disediakan didalam project
-import tkinter
-from tkinter import messagebox  #Menampilkan Jendela Kotak Pesan dari atribute library tkinter
-import Main                     #Library untuk mengambil nilai variable yang ada di file Main.py
+* import glob
+* import cv2
+* import numpy as np
+* import imutils                  #Library yang sudah disediakan didalam project
+* import tkinter
+* from tkinter import messagebox  #Menampilkan Jendela Kotak Pesan dari atribute library tkinter
+* import Main                     #Library untuk mengambil nilai variable yang ada di file Main.py
 
 ***Jika library numpy dan cv2 belum terisntal, bisa cari caranya di google***
 Untuk project ini di jalankan dengan aplikasi Anaconda Navigator dengan editor Visual studio Code. 
