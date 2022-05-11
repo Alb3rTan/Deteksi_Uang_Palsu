@@ -13,9 +13,9 @@ Cara kerjanya hanya mencocokan 2 Image yaitu Image Pembanding dengan Image yang 
 
 Library yang digunakan 
 import glob
-import cv2 
+import cv2
 import numpy as np
-import imutils                  #Library yang sudah disediakan didalam project 
+import imutils                  #Library yang sudah disediakan didalam project
 import tkinter
 from tkinter import messagebox  #Menampilkan Jendela Kotak Pesan dari atribute library tkinter
 import Main                     #Library untuk mengambil nilai variable yang ada di file Main.py
