@@ -7,7 +7,20 @@ Crazy Rich Team:
 * Robert Carlos
 * Maichel Valiant
 
+
 Deteksi Watermark dan Logo BI, sebagai bagian dari Originalitas Mata Uang Rupiah
+
+Library yang digunakan 
+import glob
+import cv2 
+import numpy as np
+import imutils                  #Library yang sudah disediakan didalam project 
+import tkinter
+from tkinter import messagebox  #Menampilkan Jendela Kotak Pesan dari atribute library tkinter
+import Main                     #Library untuk mengambil nilai variable yang ada di file Main.py
+
+***Jika library numpy dan cv2 belum terisntal, bisa cari caranya di google***
+Untuk project ini di jalankan dengan aplikasi Anaconda Navigator dengan editor Visual studio Code. 
 
 Terdapat 4 file pithon.
 * WaterMarkDetection.py => Untuk melakukan deteksi watermark dari uang kertas Rupiah
@@ -34,3 +47,6 @@ Masalah:
 ============================================================================================================
 * Logo, Sama halnya watermark.
   Logo BI di buat lebih miring namun latar tetap, sistem tetap dapat membaca.
+  
+  ![gambar](https://user-images.githubusercontent.com/101382309/167837247-b082858b-3b00-44a2-9a84-c396a8ebd24e.png)
+
