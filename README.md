@@ -38,26 +38,33 @@ Setiap pecahan uang Rupiah memiliki watermark dan Latar dari logo Bi yang berbed
 jadi dapat digunakan untuk melakukan penyesuaian guna mendeteksi originalitas dari uang pecahan tersebut.
 
 ============================================================================================================
+
 Sukses:
 * Watermark hanya terdeteksi dengan pecahan uang yang sama.
 * Logo hanya terdeteksi dengan pecahan uang yang sama.
 ============================================================================================================
+
 Masalah:
 * Watermark, Walaupun watermark dihapus setengah.
   Sistem tetap dapat membaca dan mendeteksi dengan kesamaan dari setengah bagian waermark yang ada.
 ============================================================================================================
+
 * Logo, Sama halnya watermark.
   Logo BI di buat lebih miring namun latar tetap, sistem tetap dapat membaca.
   
   
 Jalankan dari file Main.py
 untuk nilai pecahan bisa di ubah nilainya disini:
-  ![gambar](https://user-images.githubusercontent.com/101382309/167837247-b082858b-3b00-44a2-9a84-c396a8ebd24e.png)
+
+![gambar](https://user-images.githubusercontent.com/101382309/167837247-b082858b-3b00-44a2-9a84-c396a8ebd24e.png)
 
 Nilai yang di input diatas akan ditampung disini, untuk memanggil file dengan nilai tersebut.
+
 ![gambar](https://user-images.githubusercontent.com/101382309/167837657-0b717895-d0e2-4e66-93b7-13d6ad883d7b.png)
 
-Bagian ini untuk menjalankan atau mengeksekusi fungsi WM_Detection() pada file WaterMarkDetection.py & Logo_Detection() pada file LogoDetection.py
+Bagian ini untuk menjalankan atau mengeksekusi fungsi 
+WM_Detection() pada file WaterMarkDetection.py & Logo_Detection() pada file LogoDetection.py
+
 ![gambar](https://user-images.githubusercontent.com/101382309/167837802-104743a8-78ed-41f3-b315-9442ba2b0460.png)
 
 
