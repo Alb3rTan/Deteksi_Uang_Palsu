@@ -20,14 +20,14 @@ Library yang digunakan
 * from tkinter import messagebox  #Menampilkan Jendela Kotak Pesan dari atribute library tkinter
 * import Main                     #Library untuk mengambil nilai variable yang ada di file Main.py
 
-***Jika library numpy dan cv2 belum terisntal, bisa cari caranya di google***
+***Jika library numpy dan cv2 belum terinstal, bisa cari caranya di google***
 Untuk project ini di jalankan dengan aplikasi Anaconda Navigator dengan editor Visual studio Code. 
 
 Terdapat 4 file pithon.
 * WaterMarkDetection.py => Untuk melakukan deteksi watermark dari uang kertas Rupiah
-* LogoDetection.py => Untuk Melakukan deteksi Logo BI yang ada di Uang kertas Rupiah
-* imutils.py => Di file ini berisi beberapa fungsi yang digunakan pada file WaterMarkDetection & file LogoDetection.
-* Main.py => File ini merupakan file utama untuk menjalankan seluruh file diatas. 
+* LogoDetection.py      => Untuk Melakukan deteksi Logo BI yang ada di Uang kertas Rupiah
+* imutils.py            => Di file ini berisi beberapa fungsi yang digunakan pada file WaterMarkDetection & file LogoDetection.
+* Main.py               => File ini merupakan file utama untuk menjalankan seluruh file diatas. 
 
 Terdapat 2 Folder
 * Folder Template => Berisikan file image pembanding (Training Image) sebagai image pembanding untuk menyatakan
