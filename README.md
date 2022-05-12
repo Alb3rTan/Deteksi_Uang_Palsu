@@ -1,4 +1,5 @@
-# Deteksi Watermark dan Logo BI, sebagai bagian dari Originalitas Mata Uang Rupiah
+# Deteksi Watermark dan Logo BI 
+## Sebagai bagian dari Originalitas Mata Uang Rupiah
 
 Project ini dikembangkan dari sumber berikut(https://github.com/rizanw/uang-matching.git)
 
