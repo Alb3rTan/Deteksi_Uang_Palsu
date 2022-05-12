@@ -22,7 +22,6 @@ if __name__ == "__main__":
 #Watermark hanya terdeteksi dengan pecahan uang yang sama
 #Logo hanya terdeteksi dengan pecahan uang yang sama
 
-
 #Masalah:
 #Watermark, Walaupun watermark dihapus setengah. sistem tetap dapat membaca dan mendeteksi dengan kesamaan dari setengah bagian waermark yang ada.
 #Logo, Sama halnya watermark. Logo BI di buat lebih miring namun latar tetap, sistem tetap dapat membaca.
