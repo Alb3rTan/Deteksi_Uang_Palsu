@@ -38,8 +38,8 @@ Untuk project ini di jalankan dengan aplikasi Anaconda Navigator dengan editor V
 ### Ket:
 FIle pada folder Test terdapat 2 jenis fk (palsu), ori (asli)
 FIle fk adalah file image asli namun sudah di edit pada bagian watermark dan logo
-* Fk-2k1.jpg => watermark dihapus setengah dan logo BI di putar ke kiri 10 drajat dari yang asli.
-* fk-2k2.jpg => watermark sepenuhnya dihapus, atau tanpa watermark dan logo BI tetap.
+* Fk1-2k.jpg => watermark dihapus setengah dan logo BI di putar ke kiri 10 drajat dari yang asli.
+* fk2-2k.jpg => watermark sepenuhnya dihapus, atau tanpa watermark dan logo BI tetap.
 Catatan: Edit file uang pecahan 2000 tersebut hanya untuk pengujian sebagai uang palsu.
 
 Setiap pecahan uang Rupiah memiliki watermark dan Latar dari logo Bi yang berbeda,
@@ -65,11 +65,16 @@ jadi dapat digunakan untuk melakukan penyesuaian guna mendeteksi originalitas da
 Jalankan dari file Main.py
 untuk nilai pecahan bisa di ubah nilainya disini:
 
-![gambar](https://user-images.githubusercontent.com/101382309/167837247-b082858b-3b00-44a2-9a84-c396a8ebd24e.png)
+![gambar](https://user-images.githubusercontent.com/101382309/168055383-f7487eed-6104-4c64-a6a6-6a001c86292f.png)
+
+Bagian ini guna memilih file yang akan digunakan ori atau palsu (merupakan nama depan dari file **fk1- fk2- ori-**)
+
+![gambar](https://user-images.githubusercontent.com/101382309/168055473-3b8bc185-ad34-427f-8c00-74503bbe2781.png)
+
 
 Nilai yang di input diatas akan ditampung disini, untuk memanggil file dengan nilai tersebut.
 
-![gambar](https://user-images.githubusercontent.com/101382309/167837657-0b717895-d0e2-4e66-93b7-13d6ad883d7b.png)
+![gambar](https://user-images.githubusercontent.com/101382309/168055735-156ce940-44ff-4c53-8d94-d1b2ebb74484.png)
 
 Bagian ini untuk menjalankan atau mengeksekusi fungsi 
 WM_Detection() pada file WaterMarkDetection.py & Logo_Detection() pada file LogoDetection.py
