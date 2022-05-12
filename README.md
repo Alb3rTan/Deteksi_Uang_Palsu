@@ -1,3 +1,5 @@
+# Deteksi Watermark dan Logo BI, sebagai bagian dari Originalitas Mata Uang Rupiah
+
 Project ini dikembangkan dari sumber berikut(https://github.com/rizanw/uang-matching.git)
 
 ### Image Procesing Project.
@@ -7,8 +9,6 @@ Crazy Rich Team:
 * Robert Carlos
 * Maichel Valiant
 
-
-Deteksi Watermark dan Logo BI, sebagai bagian dari Originalitas Mata Uang Rupiah
 Cara kerjanya hanya mencocokan 2 Image yaitu Image Pembanding dengan Image yang di Uji.
 
 ### Library yang digunakan 
@@ -75,7 +75,7 @@ WM_Detection() pada file WaterMarkDetection.py & Logo_Detection() pada file Logo
 
 ![gambar](https://user-images.githubusercontent.com/101382309/167837802-104743a8-78ed-41f3-b315-9442ba2b0460.png)
 
-### Submission Files(https://github.com/Alb3rTan/Pengolahan_Citra/tree/main/DeteksiMataUangPalsu)
+### Submission Files
 
 File berikut disertakan sebagai bagian dari pengiriman:
 * Template
