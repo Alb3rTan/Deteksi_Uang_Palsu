@@ -60,6 +60,7 @@ def Logo_Detection():
             #===========================================================================================
             found = None
             thershold = 0.4
+            
             for scale in np.linspace(0.2, 1.0, 20)[::-1]: 
                 # scalling uang
                 resized = imutils.resize(
