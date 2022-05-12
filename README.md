@@ -90,4 +90,4 @@ File berikut disertakan sebagai bagian dari pengiriman:
 * LogoDetection.py
 * Main.py
 * WaterMarkDetection.py
-* imutils.py
+* imutils.py 
