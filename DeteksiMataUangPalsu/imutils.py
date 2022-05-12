@@ -11,11 +11,12 @@ def translate(image, x, y):
 	# Return the translated image
 	return shifted
 
+
 def rotate_bound(image, angle):
-    # grab the dimensions of the image and then determine the
-    # center
+    # grab the dimensions of the image and then determine the center
     (h, w) = image.shape[:2]
     (cX, cY) = (w // 2, h // 2)
+
     
     # grab the rotation matrix (applying the negative of the
     # angle to rotate clockwise), then grab the sine and cosine
