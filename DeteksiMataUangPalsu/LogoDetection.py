@@ -6,7 +6,6 @@ import tkinter
 from tkinter import messagebox
 import Main
 
-
 def Logo_Detection():
     #_Load_logo_template
     logo_data = []
@@ -82,7 +81,6 @@ def Logo_Detection():
                         root.withdraw()
                         messagebox.showinfo(template_logo['Logo'], "Detected") 
                                     
-
                 if found is not None: 
                     (maxVal, maxLoc, r) = found
                     (startX, startY) = (int(maxLoc[0]*r), int(maxLoc[1] * r))
