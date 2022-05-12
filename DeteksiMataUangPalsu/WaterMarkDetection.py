@@ -15,21 +15,26 @@ def WM_Detection():
     # prepare WM template==============================================================
     for WM_files in WM_files:
         tmp = cv2.imread(WM_files)        
+        
         # grayscale====================================================================
         tmp = cv2.cvtColor(tmp, cv2.COLOR_BGR2GRAY)
         cv2.imshow("Template Grayscal", tmp)
+        
         # Contrast & Brightness========================================================
         alpha = 0.7 # Contrast control (1.0-3.0)
         beta = 5 # Brightness control (0-100)
         tmp = cv2.convertScaleAbs(tmp, alpha=alpha, beta=beta)
         cv2.imshow("Template CB", tmp) 
+        
         # Black & White================================================================  	
         #(thresh, blackAndWhiteImage) = cv2.threshold(tmp, 135, 200, cv2.THRESH_BINARY)        	
         #cv2.imshow('Black white image', blackAndWhiteImage)
+        
         # sharpening===================================================================
         #kernel = np.array([[0, -1, 0], [-1, 5, -1], [0, -1, 0]])       
         #tmp = cv2.filter2D(tmp, -1, kernel)
         # smoothing====================================================================
+        
         # blur=========================================================================
         #tmp = cv2.blur(tmp, (1, 3))
         # adaptiveThreshold============================================================
