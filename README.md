@@ -75,4 +75,13 @@ WM_Detection() pada file WaterMarkDetection.py & Logo_Detection() pada file Logo
 
 ![gambar](https://user-images.githubusercontent.com/101382309/167837802-104743a8-78ed-41f3-b315-9442ba2b0460.png)
 
+Submission Files https://github.com/Alb3rTan/Pengolahan_Citra/tree/main/DeteksiMataUangPalsu
 
+File berikut disertakan sebagai bagian dari pengiriman:
+* Template
+* Test
+* __pycache__
+* LogoDetection.py
+* Main.py
+* WaterMarkDetection.py
+* imutils.py
