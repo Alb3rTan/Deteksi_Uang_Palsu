@@ -1,6 +1,6 @@
-Project ini dikembangkan dari sumber https://github.com/rizanw/uang-matching.git
+Project ini dikembangkan dari sumber berikut(https://github.com/rizanw/uang-matching.git)
 
-Image Procesing Project.
+### Image Procesing Project.
 Crazy Rich Team:
 * Albert Sutandi
 * Handinata
@@ -11,7 +11,7 @@ Crazy Rich Team:
 Deteksi Watermark dan Logo BI, sebagai bagian dari Originalitas Mata Uang Rupiah
 Cara kerjanya hanya mencocokan 2 Image yaitu Image Pembanding dengan Image yang di Uji.
 
-Library yang digunakan 
+### Library yang digunakan 
 * import glob
 * import cv2
 * import numpy as np
@@ -23,18 +23,18 @@ Library yang digunakan
 ***Jika library numpy dan cv2 belum terinstal, bisa cari caranya di google***
 Untuk project ini di jalankan dengan aplikasi Anaconda Navigator dengan editor Visual studio Code. 
 
-Terdapat 4 file pithon.
+### Terdapat 4 file pithon.
 * WaterMarkDetection.py => Untuk melakukan deteksi watermark dari uang kertas Rupiah
 * LogoDetection.py      => Untuk Melakukan deteksi Logo BI yang ada di Uang kertas Rupiah
 * imutils.py            => Di file ini berisi beberapa fungsi yang digunakan pada file WaterMarkDetection & file LogoDetection.
 * Main.py               => File ini merupakan file utama untuk menjalankan seluruh file diatas. 
 
-Terdapat 2 Folder
+### Terdapat 2 Folder
 * Folder Template => Berisikan file image pembanding (Training Image) sebagai image pembanding untuk menyatakan
   uang kertas asli atau tidak.
 * Folder Test => Berisikan file image uang kertas yang akan di uji keaslianya.
 
-Ket:
+### Ket:
 FIle pada folder Test terdapat 2 jenis fk (palsu), ori (asli)
 FIle fk adalah file image asli namun sudah di edit pada bagian watermark dan logo
 * Fk-2k1.jpg => watermark dihapus setengah dan logo BI di putar ke kiri 10 drajat dari yang asli.
@@ -46,13 +46,13 @@ jadi dapat digunakan untuk melakukan penyesuaian guna mendeteksi originalitas da
 
 =========================================================================
 
-Sukses:
+### Sukses:
 * Watermark hanya terdeteksi dengan pecahan uang yang sama.
 * Logo hanya terdeteksi dengan pecahan uang yang sama.
 
 =========================================================================
 
-Masalah:
+### Masalah:
 * Watermark, Walaupun watermark dihapus setengah.
   Sistem tetap dapat membaca dan mendeteksi dengan kesamaan dari setengah bagian watermark yang ada.
 
@@ -75,7 +75,7 @@ WM_Detection() pada file WaterMarkDetection.py & Logo_Detection() pada file Logo
 
 ![gambar](https://user-images.githubusercontent.com/101382309/167837802-104743a8-78ed-41f3-b315-9442ba2b0460.png)
 
-Submission Files https://github.com/Alb3rTan/Pengolahan_Citra/tree/main/DeteksiMataUangPalsu
+### Submission Files(https://github.com/Alb3rTan/Pengolahan_Citra/tree/main/DeteksiMataUangPalsu)
 
 File berikut disertakan sebagai bagian dari pengiriman:
 * Template
