@@ -8,7 +8,7 @@ Crazy Rich Team:
 * Albert Sutandi
 * Handinata
 * Robert Carlos
-* Maichel Valiant
+* Michael Valiant
 
 Cara kerjanya hanya mencocokan 2 Image yaitu Image Pembanding dengan Image yang di Uji.
 
