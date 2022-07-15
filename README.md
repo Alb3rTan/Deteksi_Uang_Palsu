@@ -3,6 +3,9 @@
 
 Project ini dikembangkan dari sumber berikut(https://github.com/rizanw/uang-matching.git)
 
+Link Video presentasi dan Video Demo (GDrive)
+https://drive.google.com/drive/u/1/folders/1fWbCHLvucFPTF4zB08Q-_zg4pX2QggDS
+
 ### Image Procesing Project.
 Crazy Rich Team:
 * Albert Sutandi
